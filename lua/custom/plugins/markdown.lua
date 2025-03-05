@@ -7,5 +7,6 @@ return { -- Markdown
   ---@type render.md.UserConfig
   opts = {
     render_modes = true,
+    quote = { repeat_linebreak = true },
   },
 }
