@@ -20,23 +20,23 @@ return {
     }
   end,
   keys = {
-    { '<leader>t', '', desc = '+test' },
+    { '<leader>T', '', desc = '+[T]est' },
     {
-      '<leader>tt',
+      '<leader>Tt',
       function()
         require('neotest').run.run()
       end,
       desc = 'Run nearest test ',
     },
     {
-      '<leader>ts',
+      '<leader>Ts',
       function()
         require('neotest').summary.toggle()
       end,
       desc = 'Toggle test sumary',
     },
     {
-      '<leader>to',
+      '<leader>To',
       function()
         require('neotest').output_panel.toggle()
       end,
