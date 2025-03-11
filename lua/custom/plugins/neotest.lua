@@ -33,7 +33,7 @@ return {
       function()
         require('neotest').summary.toggle()
       end,
-      desc = 'Toggle test sumary',
+      desc = 'Toggle test summary',
     },
     {
       '<leader>To',
